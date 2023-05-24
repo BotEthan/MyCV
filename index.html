@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<!--Create the page metadata info-->
+<head>
+    <title>
+        About Me
+    </title>
+    <link rel="icon" href="./Images/me2.jpg" style="object-fit: cover;">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styling.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body style="background-color: rgb(248, 249, 250);">
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav-bar">
+        <a class="navbar-brand name" href="#" >Ethan Clack</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--Creating the button navigation options-->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--A nice peach coloured seperator between header and products-->
+    <div style="background-color: rgb(249,204,157); height: 5px;">
+        <span></span>
+    </div>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="details" id="about-me">
+                    <!--Write my about me-->
+                    <h1>About me</h1>
+                    <p>
+                        Hi, my name is Ethan Clack.
+                        <br><br>
+                        I'm just a nerd who's been coding since Grade 10 of high school.
+                        I enjoy coding, video games, guitar and singing, and airsoft.
+                        My goal is to hopfully at some point get into the development of video games and make
+                        that my career.
+                        <br><br>
+                        I'm currently teaching myself C# in order to use the Unity Game Engine to begin creating indie games.
+                        So far I am currently in the process of recreating, as best I can, the Call of Duty Black Ops 1 Zombies gamemode.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 position-relative">
+                <div class="details">
+                    <!--Write out my skills-->
+                    <h1>Skills</h1>
+                    <div class="container" id="skills-list">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <div class="card-img-overlay">
+                                        <img src="./Images/python.JPG">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">5 years of using Python</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <div class="card-img-overlay">
+                                        <img src="./Images/discord-logo.JPG">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">3 years of using the Discord.py API</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <div class="card-img-overlay">
+                                        <img src="./Images/SQLite-logo.JPG">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">1 year of using SQLite3</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <div class="card-img-overlay double">
+                                        <img src="./Images/c-sharp-logo.JPG">
+                                        <img src="./Images/unity-logo.JPG">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">1 year of using C# for Unity GameDev</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <div class="card-img-overlay">
+                                        <img src="./Images/components.jpeg">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Knowledge of Computer Components</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <div class="card-img-overlay">
+                                        <img src="./Images/learner.JPG">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Resilient and Quick Learner</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="details">
+                    <!--Write my education-->
+                    <h1>Education</h1>
+                    <p>
+                        My education so far has been up to High School level. I took
+                        Physics/Chemistry, Pure Mathematics, Information Technology and Engineering Graphics and Drawings
+                        as my chosen subjects from Grade 10 - 12.
+                    </p>
+                    <br><br>
+                </div>
+            </div>
+            <div class="col-md-6 position-relative">
+                <div class="details">
+                    <!--Write my projects-->
+                    <h1>Projects I've worked on</h1>
+                    <p>
+                        For the past few years I've been working on a project that has been ever growing to not only my needs
+                        but the needs of my friends as well.
+                        <br>
+                        I have been working on a personalized Discord bot for not only my Gaming/Airsoft clans needs but also
+                        tailored to the needs of the Squad South Africa community that I moderate. Squad South Africa is a community
+                        made around the military simulation video game "Squad" in which we are currently the only group hosting
+                        a game server for this game in Africa. On the side of my Discord Bot it has been personalized to suit the needs
+                        of the community. This includes things such as adding the ability to create polls for the discord community to interact with
+                        as well as creating automatic role assignment depending on if the user sends a message with a given keyword for the bot to lookout for
+                        or the user reacts to a reaction placed on a message.
+                        <br><br>
+                        I am not able to attach a link to the github repository as the repository contains the main.py file for the bot to run and inside
+                        this file is token key for the bot in which anyone can use to take control of my bot and inject malicious code into.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="details">
+                    <!--Write my education-->
+                    <h1>Work Experience</h1>
+                    <p>
+                        • Video editing for a course content. 3 Months <br>
+                        • Junior Backend Developer. 2 Months
+                    </p>
+                    <br><br>
+                </div>
+            </div>
+            <div class="col-md-6 position-relative">
+                <div class="details">
+                    <!--Write my projects-->
+                    <h1>Contact Details</h1>
+                    <p>
+                        • Phone Number: 076 102 5831
+                        <br>
+                        • Email Address: ethanclack1@gmail.com
+                        <br>
+                        • LinkedIn: <a href="https://www.linkedin.com/in/ethan-clack-b191b9246/">Ethan Clack</a>
+                    </p>
+                    <div style="
+                    height:200px; width:200px;
+                    object-fit: fill;
+                    margin-bottom: 10px;
+                    background-image: url('./Images/me.jpg');
+                    background-size: 120%;
+                    background-position-x: center;
+                    background-position-y: center;
+                    "></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--A nice peach coloured seperator between header and products-->
+    <div style="background-color: rgb(249,204,157); height: 5px;">
+        <span></span>
+    </div>
+    <footer class="footer bg-light">
+</body>
+</html>
